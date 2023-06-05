@@ -1,17 +1,14 @@
 import React from "react";
-import './Header.css'
 
 export default function Header(){
     return (
-    <div class="main">
-        <h1><div class="roller">
-            <span id="rolltext">GOOGLE<br/>
-            Is<br/>
-            The<br/>
-            Best!
-            </span>
-            </div>
-        </h1>
-    </div>
+        <div className="header">
+            <h4>About</h4>
+            <h4>Store</h4>
+            <h4>Gmail</h4>
+            <h4>Images</h4>
+            <img src="" alt="" />
+            <img src="" alt="" />
+        </div>
     )
 }

@@ -3,14 +3,9 @@ import React from "react";
 
 export default function SearchBar(){
     return (
-    <div >
-        <div>
-            <div className="gcse-searchbox"></div>
+        <div className="searchBox">
+        <div className="gcse-searchbox-only"></div>
         </div>
-        <div>
-            <div className="gcse-searchresults"></div>
-        </div>
-    </div>
        
     )
 }

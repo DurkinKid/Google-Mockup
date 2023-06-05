@@ -1,4 +1,3 @@
-  
 .roller{
     position: relative;
     overflow: hidden; 
@@ -15,7 +14,7 @@
     animation: slide 5s infinite;  
   }
   
-  @keyframes slide {
+  /* @keyframes slide {
     0%{
       top:0;
     }
@@ -28,7 +27,7 @@
     75%{
       top: -12.25rem;
     }
-  }
+  } */
   
   /* @media screen and (max-width: 600px){
     h1{
@@ -44,7 +43,7 @@
     
     
 .roller #rolltext {  
-    animation: slide-mob 5s infinite;  
+    animation: slide-mob 5s;  
 }
     
 @keyframes slide-mob {
